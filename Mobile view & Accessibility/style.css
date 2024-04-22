@@ -1,0 +1,136 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background: url("https://wallup.net/wp-content/uploads/2016/01/288504-colorful-pattern-abstract-square-digital_art-lines.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#main
+{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255,162,0,0.7);
+    border: 3px solid white;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+#header
+{
+    width: 100%;
+    text-align: center;
+
+}
+
+#navigation li
+{
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    background-color: rgb(25,172,172);
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+#navigation
+{
+    width: 100%;
+    text-align: center;
+
+}
+
+#content p
+{
+    font-size: 18pt;
+    font-weight: 600;
+    text-align: justify;
+}
+
+li a, li a:visited
+{
+    color: white;
+    text-decoration: none;
+}
+
+img
+{ 
+    width: 80%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li a:hover
+{
+    background: rgb(0,252,255)
+}
+
+#bw{
+    background: black;
+    color:white;
+}
+
+#wb{
+    background: white;
+    color:black 
+}
+
+#by
+{
+    background-color: black;
+    color:yellow;
+}
+
+#yb
+{
+    background-color: yellow;
+    color:black
+}
+
+.box{
+    height:100px;
+    width:100px;
+    border:solid black 2px;
+    display: inline-block;
+    border-radius: 10px;
+    background: white;
+    line-height: 100px;
+    text-align: center;
+}
+
+.boxes
+{
+    text-align: center;
+}
+
+@media only screen and (max-width:800px)
+{
+    #main
+    {
+        width: 100%;
+        border-radius: 0;
+        background: rgb(178,0,255,0.7);
+
+    }
+
+    #navigation{
+        margin-left: auto;
+        margin-right: auto
+    }
+
+    #navigation li
+    {
+        width: 60%;
+        display: block;
+        margin: 10px;
+        font-size: 18pt;
+    }
+}

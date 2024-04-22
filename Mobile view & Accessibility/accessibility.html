@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link id="pageStyle" rel="stylesheet" href="style.css">
+    <title>Accessibility</title>
+</head>
+<body id="t">
+    <div id="main">
+        <div id="header">
+            <h1>Accessibility Page</h1>
+        </div>
+
+    
+        <div id ="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="accessibility.html">Accesbility</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Maps</a></li>
+            </ul>
+    
+        </div>
+
+        <div id="content">
+
+            <ul class ="boxes">
+                <li class="box" id="bw" onclick="swapStyleSheet('styles/one.css','a')">Black/White</li>
+                <li class="box" id="wb" onclick="swapStyleSheet('styles/two.css','b')">White/Black</li>
+                <li class="box" id="by" onclick="swapStyleSheet('styles/three.css','c')">Black/Yellow</li>
+                <li class="box" id="yb" onclick="swapStyleSheet('styles/four.css','d')">Yellow/Block</li>
+            </ul>
+            <div class ="boxes">
+                <input type="text"  id ="text_box" value="12">
+                <button id="textChange" onclick="clicking()">Change Text</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
